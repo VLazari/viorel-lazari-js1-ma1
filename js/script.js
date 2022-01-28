@@ -60,3 +60,19 @@ function listOfNames(list) {
 listOfNames(cats);
 
 // -- Question 8: -->
+
+const catsContainer = document.querySelector(".cat-container");
+
+function createCats(cats) {
+	html = "";
+
+	cats.forEach((element) => {
+		age = "Age unknown";
+		if (element.age) age = element.age;
+		html += `<div><h5>${element.name}</h5><p>${age}</p></div>`;
+	});
+
+	return html;
+}
+
+catsContainer.innerHTML = createCats(cats);
