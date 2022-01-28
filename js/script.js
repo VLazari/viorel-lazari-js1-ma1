@@ -50,4 +50,13 @@ resultsContainer.innerHTML = `<p>New paragraph</p>`;
 resultsContainer.style.backgroundColor = "yellow";
 
 // -- Question 7: -->
+
+function listOfNames(list) {
+	list.forEach((element) => {
+		console.log(element.name);
+	});
+}
+
+listOfNames(cats);
+
 // -- Question 8: -->
