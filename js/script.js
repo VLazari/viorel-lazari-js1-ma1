@@ -22,6 +22,10 @@ function catComplain() {
 
 // -- Question 2: -->
 
+const heading = document.querySelector("h3");
+
+heading.innerHTML = `Updated heading`;
+
 // -- Question 3: -->
 // -- Question 4: -->
 // -- Question 5: -->
