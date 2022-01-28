@@ -33,9 +33,16 @@ heading.style.fontSize = "2em";
 // -- Question 4: -->
 
 heading.classList.add("subheading");
-console.log(heading);
 
 // -- Question 5: -->
+
+const paragraphs = document.querySelectorAll("p");
+
+for (let i = 0; i < paragraphs.length; i++) {
+	paragraphs[i].style.color = "red";
+}
+console.log(paragraphs);
+
 // -- Question 6: -->
 // -- Question 7: -->
 // -- Question 8: -->
