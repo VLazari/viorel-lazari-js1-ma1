@@ -15,11 +15,13 @@ const cats = [
 // -- Question 1: -->
 
 const cat = { complain: catComplain() };
+
 function catComplain() {
 	console.log("Meow!");
 }
 
 // -- Question 2: -->
+
 // -- Question 3: -->
 // -- Question 4: -->
 // -- Question 5: -->
