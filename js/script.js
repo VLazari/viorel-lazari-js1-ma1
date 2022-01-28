@@ -31,6 +31,10 @@ heading.innerHTML = `Updated heading`;
 heading.style.fontSize = "2em";
 
 // -- Question 4: -->
+
+heading.classList.add("subheading");
+console.log(heading);
+
 // -- Question 5: -->
 // -- Question 6: -->
 // -- Question 7: -->
